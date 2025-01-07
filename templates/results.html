@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+table th {
+    text-align: left !important;
+    font-weight: bold !important;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Data Results</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="container mt-5">
+        {% if not validation_issues %}
+        <h1>Job Data Results</h1>
+        <h3>Job Listings:</h3>
+        <div>
+            {{ job_table | safe }}
+        </div>
+        <a href="/download_csv" class="btn btn-success mt-3">Download CSV</a>
+        {% else %}
+        <div class="alert alert-warning">
+            <h4>Validation Issues:</h4>
+            <ul>
+                {% for issue in validation_issues %}
+                <li>{{ issue }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+ 
+        
+        <a href="/" class="btn btn-primary mt-3">Upload Another File</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+2025-01-07 18:48:21,601 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-07 18:48:21,601 [INFO] - [33mPress CTRL+C to quit[0m
+2025-01-07 18:48:21,603 [INFO] -  * Restarting with stat
+2025-01-07 18:48:22,689 [WARNING] -  * Debugger is active!
+2025-01-07 18:48:22,693 [INFO] -  * Debugger PIN: 901-626-805
+2025-01-07 18:48:33,856 [INFO] - Title tag found: Job Listings
+2025-01-07 18:48:33,901 [INFO] - 127.0.0.1 - - [07/Jan/2025 18:48:33] "POST / HTTP/1.1" 200 -
+2025-01-07 18:48:40,234 [INFO] - Title tag found: Job Listings
+2025-01-07 18:48:40,241 [INFO] - 127.0.0.1 - - [07/Jan/2025 18:48:40] "POST / HTTP/1.1" 200 -
+2025-01-07 18:48:52,365 [INFO] - 127.0.0.1 - - [07/Jan/2025 18:48:52] "GET / HTTP/1.1" 200 -
+2025-01-07 18:48:59,550 [INFO] - Title tag found: Job Listings
+2025-01-07 18:48:59,557 [INFO] - 127.0.0.1 - - [07/Jan/2025 18:48:59] "POST / HTTP/1.1" 200 -
+2025-01-07 18:50:30,594 [INFO] - 127.0.0.1 - - [07/Jan/2025 18:50:30] "GET / HTTP/1.1" 200 -
+2025-01-07 18:50:38,633 [INFO] - 127.0.0.1 - - [07/Jan/2025 18:50:38] "[31m[1mPOST / HTTP/1.1[0m" 400 -
+2025-01-07 18:59:32,327 [INFO] -  * Detected change in 'C:\\Users\\ktfri\\OneDrive\\htmlParser\\app.py', reloading
+2025-01-07 18:59:33,009 [INFO] -  * Restarting with stat
+2025-01-07 19:07:11,691 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-07 19:07:11,693 [INFO] - [33mPress CTRL+C to quit[0m
+2025-01-07 19:07:11,697 [INFO] -  * Restarting with stat
+2025-01-07 19:07:13,178 [WARNING] -  * Debugger is active!
+2025-01-07 19:07:13,195 [INFO] -  * Debugger PIN: 901-626-805
+2025-01-07 19:07:22,835 [INFO] - 127.0.0.1 - - [07/Jan/2025 19:07:22] "GET / HTTP/1.1" 200 -
+2025-01-07 19:07:29,086 [INFO] - 127.0.0.1 - - [07/Jan/2025 19:07:29] "[31m[1mPOST / HTTP/1.1[0m" 400 -
+2025-01-07 19:07:46,693 [INFO] - Title tag found: Job Listings
+2025-01-07 19:07:46,786 [INFO] - 127.0.0.1 - - [07/Jan/2025 19:07:46] "POST / HTTP/1.1" 200 -
+2025-01-07 19:07:53,621 [INFO] - 127.0.0.1 - - [07/Jan/2025 19:07:53] "GET /download_csv HTTP/1.1" 200 -
+2025-01-07 19:07:57,321 [INFO] - 127.0.0.1 - - [07/Jan/2025 19:07:57] "GET / HTTP/1.1" 200 -
+2025-01-07 20:04:02,450 [INFO] -  * Detected change in 'C:\\Users\\ktfri\\OneDrive\\htmlParser\\app.py', reloading
+2025-01-07 20:04:03,081 [INFO] -  * Restarting with stat
+2025-01-07 20:04:04,928 [WARNING] -  * Debugger is active!
+2025-01-07 20:04:04,952 [INFO] -  * Debugger PIN: 901-626-805
+2025-01-07 20:12:42,497 [INFO] - 127.0.0.1 - - [07/Jan/2025 20:12:42] "GET / HTTP/1.1" 200 -
